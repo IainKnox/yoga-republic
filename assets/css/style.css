@@ -15,12 +15,14 @@
     align-items: center;
     background-color: #402E32;
     color: white;
+    padding-right: 10px;
 }
 
 .brand-name {
     font-family: 'Comfortaa',sans-serif;
     font-size: 2rem;
     margin: .5rem;
+    padding-left: 20px;
 }
 
 .navbar-links ul {
@@ -50,7 +52,7 @@
 }
 
 /* media query to change the flow of the navbar on mobile devices*/
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
     
     .navbar-links {
         width: 100%;
@@ -73,6 +75,7 @@
     .navbar-links li a {
         padding: .5rem 1rem;
     }
+    
 }
 
 /* hero image */
