@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&family=Courgette&family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&family=Courgette&family=Roboto:wght@100;300;400&family=Montserrat:wght@300;400&display=swap');
 
 * {
     box-sizing: border-box;
@@ -9,7 +9,7 @@
 }
 
 .navbar {
-    font-family: 'Courgette',sans-serif;
+    font-family: 'Montserrat',sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -87,6 +87,8 @@
 
 #cover-text, #cover-text h2 {
     color:white;
+    padding: .5rem;
+    
 }
 
 #hero-image {
@@ -112,13 +114,13 @@
 }
 
 #cover-text {
-    font-size: 1.5rem;
-    font-family: 'Comfortaa', sans-serif;
-    text-transform: capitalize;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
     letter-spacing: 4px;
     
-    width: 220px;
-    height: 310px;
+    width: 200px;
+    height: 300px;
     border-radius: 20px;
 
     padding-top: 40px;
@@ -126,8 +128,25 @@
     
     background-color: rgba(55, 55, 55, .7);
 
-    bottom: 10px;
-    right: 185px;
+    bottom: 30px;
+    right: 150px;
 
     position: absolute;
+}
+
+/* welcome section*/
+#welcome {
+    height: 600px;
+    width: 100%;
+    
+}
+
+#welcome h2 {
+    font-family: 'Courgette';
+    display: block;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0;;
+    color: #842600;
+
 }
