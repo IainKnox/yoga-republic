@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&family=Courgette&family=Roboto:wght@100;300;400&family=Montserrat:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&family=Courgette&family=Roboto:wght@100;300;400&family=Montserrat:wght@300;400;500;600&display=swap');
 
 * {
     box-sizing: border-box;
@@ -138,15 +138,32 @@
 #welcome {
     height: 600px;
     width: 100%;
+    background-color: rgba(223, 224, 223,0.4);
     
 }
 
 #welcome h2 {
-    font-family: 'Courgette';
-    display: block;
-    font-size: 40px;
+    font-family: 'Courgette',sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
     text-align: center;
-    margin: 20px 0;;
     color: #842600;
+    padding-top: 30px;  
+    width: 35%;
+    line-height: 50px;
+    margin: 20px auto;
+    border-bottom: 1px solid #402e32;
+}
 
+#welcome p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+    color: #402E32;
+    padding-top: 30px;
+    width: 30%;
+    line-height: 25px;
+    margin: 0 auto;
+    
 }
