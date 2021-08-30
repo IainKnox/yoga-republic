@@ -1,13 +1,13 @@
 # Yoga Republic
 
-Yoga Republic is a yoga studio based in Glasgow area, looking to create brand awareness and introduce potential clients to the brand with hopes to expand its client base. Specific goals of the site include offer a platfrom that will inform:
-* the types of yoga on offer 
+Yoga Republic is a yoga studio based in the Glasgow area, looking to create brand awareness and introduce potential members to the brand with hopes to expand its client base. Specific goals for the business are to offer a platfrom that will inform:
+* the types of yoga on they offer 
 * the times of the classes
 * contact details and location of the studio
-* call to action to get to try out a class
+* call to action to get prospects to try out a class
 * _future goals are a platform to generate leads from site visitors_
 
-Yoga republic will be useful to users looking to find a specific yoga style suited to their fitness/ability level. Get detailed information on the various styles of yoga on offer and the teachers who lead the classes. See exactly when and where they need to be in order to join a class. Have access to an online form if they would like to be contacted directly by someone from the studio.
+Yoga Republic will be useful to users looking to find a specific yoga style suited to their fitness/ability level. Get detailed information on the various styles of yoga on offer and the teachers who lead the classes. See exactly when and where they need to be in order to join a class. Have access to an online form if they would like to be contacted directly by someone from the studio.
 
 ## Features
 
