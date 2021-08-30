@@ -15,7 +15,7 @@ Yoga Republic will be useful to users looking to find a specific yoga style suit
 
 * Landing Page
     * This section introduces the user to Yoga Republic with an eye catching animation to grab their attention
-    ![Landing page](/assets/images/hero-image.jpg)
+    ![Landing Page](/assets/images/landing-page402E32.jpg)
     
 
 * Nav Bar
