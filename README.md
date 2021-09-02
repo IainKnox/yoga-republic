@@ -13,12 +13,18 @@ Yoga Republic will be useful to users looking to find a specific yoga style suit
 
 ### Existing Features
 
-* Landing Page
+* Header
+    * This is the first section and contains the **Yoga Republic** heading and the navigation elements.
     * This section introduces the user to Yoga Republic with an eye catching animation to grab their attention
-    ![Landing Page](/assets/images/landing-page402E32.jpg)
+    and a welcoming message introducing them to the site.
+    ![Home Page](/assets/images/landing-page402E32.jpg)
     
 
 * Nav Bar
+    * The navigation bar consists of 3 links, namely **Home**, **About** and **Contact**.
+    * The **Home** link directs the user to top of the *Home page*.
+    * The **About** link directs the user to the *about* section located within the *Home page*. From this point the user has access to more information about the studio by following either the **Community**, **Values** or **Classes** links respectively.
+    * The **Contact** link directs users to the *contact* section within the *Home page*. From this point the user can choose to either follow the **Join Us** link which will take them to the **Classess** page or follow the **Contact Us** link which will open a contact form for submission.
     ![Navigation bar](#)
 
 * Section 1
