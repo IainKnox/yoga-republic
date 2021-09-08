@@ -5,7 +5,14 @@
     margin: 0;
     padding: 0;
     border: none;
+    scroll-behavior: smooth;
     
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 .navbar {
@@ -13,17 +20,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #402E32;
+    background-color: #03011e;
     color: white;
     padding-right: 10px;
+   
+
+}
+.brand-name h1 {
+    font-family: 'Comfortaa',sans-serif;
+    font-size: 2.5rem;
+    margin: 0;
+    padding: .5rem;
+    text-align: center;
+    color: #cea716;
 }
 
-.brand-name {
-    font-family: 'Comfortaa',sans-serif;
-    font-size: 2rem;
-    margin: .5rem;
-    padding-left: 20px;
-}
 
 .navbar-links ul {
     margin: 0;
@@ -89,7 +100,7 @@
 }
 
 #cover-text, #cover-text h2 {
-    color:white;
+    color:#dbcdcd;
     padding: .5rem;
     
 }
@@ -98,6 +109,8 @@
     height: 800px;
     width: 100%;
     background: url('/assets/images/hero-image.jpg') no-repeat center center;
+    background-color: #03011e;
+    background-blend-mode: luminosity;
 
     /*animates zoom effect on loading page*/
     animation: hero-zoom;
@@ -120,7 +133,7 @@
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: .25rem;
     
     width: 200px;
     height: 300px;
@@ -129,7 +142,7 @@
     padding-top: 40px;
     padding-left: 10px;
     
-    background-color: rgba(55, 55, 55, .7);
+    background-color: #303149;
 
     bottom: 30px;
     right: 150px;
@@ -139,9 +152,10 @@
 
 /* welcome section*/
 #welcome {
-    height: 600px;
-    width: 100%;
-    background-color: rgba(223, 224, 223,0.4);
+    min-height: 30rem;
+    max-width: 100%;
+    background-color: #ffefca;
+    text-align: center;
     
 }
 
@@ -149,12 +163,11 @@
     font-family: 'Courgette',sans-serif;
     font-size: 2.5rem;
     font-weight: 300;
-    text-align: center;
     color: #842600;
-    padding-top: 30px;  
-    width: 35%;
+    max-width: 15ch;
     line-height: 50px;
-    margin: 20px auto;
+    margin: 0 auto;
+    padding: 1.75rem;
     border-bottom: 1px solid #402e32;
 }
 
@@ -162,11 +175,162 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     font-weight: 500;
-    text-align: center;
     color: #402E32;
-    padding-top: 30px;
-    width: 30%;
+    max-width: 25ch;
     line-height: 25px;
     margin: 0 auto;
+    padding: 1.75rem;
     
+}
+/* about section */
+
+.about {
+    min-height: 30rem;
+    max-width: 40ch;
+}
+
+.about span {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #03011e;
+    color: white;
+    
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    cursor: pointer;
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+
+/* form section */
+
+.form {
+    
+    padding: 1.5rem;
+    text-align: center;
+
+    min-height: 10rem;
+    max-width: 100%;
+    background-color: #dbcdcd;
+}
+
+.form h2 {
+    font-family: 'Comfortaa',sans-serif;
+    font-size: 2rem;
+    text-transform:capitalize;
+    margin: auto;
+    max-width: 40ch;
+   
+}
+/* buttons */
+
+.contact-btn {
+    padding-top: 1rem;
+}
+
+.button {
+    font-size: 1rem; 
+    text-transform: uppercase;
+
+    display: inline-flexbox;
+    cursor: pointer;
+    text-decoration: none;
+    border: .25em solid #847655;
+    background-color: #03011e;
+    color: #cea716;
+
+    padding: .5em 1em;
+    margin: .8em;
+    border-radius: 1em;
+
+
+} 
+
+.button:hover {
+    background-color: #847655;
+}
+
+/* footer section */
+footer {
+    min-height: 100px;
+}
+
+footer p {
+    font-family: 'Montserrat',sans-serif;
+    font-size: .8rem;
+    padding: .25rem;
+    text-align: center;
+    
+}
+
+.social-networks {
+    text-align: center;
+    
+}
+
+.social-networks > li {
+    display: inline-block;
+}
+
+.social-networks i {
+    font-size: 2.5rem;
+    margin: 1rem;
+    padding: .25rem;
+    color: #cea716;
+    justify-content: space-between;
+}
+
+.arrow-top {
+    position: fixed;
+    right: 0;
+    bottom: .25rem;
+    font-size: 2rem;
+    color: #03011e;
+    opacity: 0.65;
 }
