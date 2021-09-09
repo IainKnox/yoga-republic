@@ -116,7 +116,7 @@
 
     /*animates zoom effect on loading page*/
     animation: hero-zoom;
-    animation-duration: 8s;
+    animation-duration: 6s;
     animation-fill-mode: forwards;
 }
 
@@ -380,9 +380,9 @@ i {
 }
 
 
-/* form section */
+/* Contact Us section */
 
-.form {
+.contact {
 
     padding: 1.5rem;
     text-align: center;
@@ -392,7 +392,7 @@ i {
     background-color: #dbcdcd;
 }
 
-.form h2 {
+.contact h2 {
     font-family: 'Comfortaa', sans-serif;
     font-size: 2rem;
     text-transform: capitalize;
