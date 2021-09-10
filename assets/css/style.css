@@ -401,6 +401,28 @@ i {
 
 }
 
+.form-container {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    border: 2px solid #555; /* placeholder color value */
+    background-color: #cea716;
+    color: white;
+    box-shadow: 0 0 2px 2px;
+    padding: .5rem .75rem;
+    margin: 0 auto;
+    max-width: 40ch;
+    align-content: space-between;
+    text-align: left;
+}
+
+.radio-btn {
+    text-align: center;
+}
+
+.form-btn {
+    text-align: center;
+}
+
 /* buttons */
 
 .contact-btn {

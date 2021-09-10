@@ -31,33 +31,37 @@
     <section class="contact">
         <div>
             <h2>Like what you see?</h2>
+
             <div class="form-container">
-                <div>
-                    <label for="fname" class="fname">Name</label>
-                    <input type="text" value="First Name"></div>
-                <div>
-                    <label for="lname" class="lname">Surname</label>
-                    <input type="text" value="Surname"></div>
-                <div>
-                    <label for="email" class="email">Email Address</label>
-                    <input type="email" value="example@mail.com">
-                </div>
-                <div>
-                    <label for="phone" class="phone">Phone Number</label>
-                    <input type="tel" value="1234-111-1234">
-                </div>
-                <div>
+                <form action="thank-you.html" method="get">
                     <div>
-                        <label for="yoga">Yoga Class</label>
-                        <input type="radio" name="class-type" id="yoga" required></div>
-                    <div><label for="meditate">Meditation</label>
-                        <input type="radio" name="class-type" id="meditate"></div>
-                    <div><label for="both">Both</label>
-                        <input type="radio" name="class-type" id="both"></div>
-                </div>
-                <div>
-                    <input type="button" value="Submit" class="button">
-                </div>
+                        <label for="fname" class="fname">Name</label>
+                        <input type="text" name="fname"></div>
+                    <div>
+                        <label for="lname" class="lname">Surname</label>
+                        <input type="text" name="lname"></div>
+                    <div>
+                        <label for="email" class="email">Email Address</label>
+                        <input type="email" name="email" value="example@mail.com">
+                    </div>
+                    <div>
+                        <label for="phone" class="phone">Phone Number</label>
+                        <input type="tel" name="phone">
+                    </div>
+                    <br>
+                    <div class="radio-btn">
+                        <div>
+                            <label for="yoga">Yoga Class</label>
+                            <input type="radio" name="class-type" id="yoga" required></div>
+                        <div><label for="meditate">Meditation</label>
+                            <input type="radio" name="class-type" id="meditate"></div>
+                        <div><label for="both">Both</label>
+                            <input type="radio" name="class-type" id="both"></div>
+                    </div>
+                    <div class="form-btn">
+                        <button class="button">Submit</button>
+                    </div>
+                </form>
             </div>
         </div>
 
