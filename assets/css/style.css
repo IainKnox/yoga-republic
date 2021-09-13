@@ -9,13 +9,6 @@
 
 }
 
-.sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-
-}
-
 .brand-name {
     background-color: #303149;
     display: flex;
@@ -33,7 +26,12 @@
     background-color: rgba(206, 167, 22, .4);
     color: white;
     padding-right: 10px;
-
+}
+/* Creates sticky position as the user scrolls down the page */
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 
 }
 
@@ -56,7 +54,6 @@
     color: #cea716
 
 }
-
 
 .navbar-links ul {
     margin: 0;
@@ -113,15 +110,16 @@
     .navbar-links li a {
         padding: .5rem 1rem;
     }
-
+    /* removes the sticky scroll on smaller screens to make it easier to read */
     .sticky {
         position: static;
     }
-
 }
 
-/* hero image */
 
+/* Creation of the Hero image and its animations */
+/* This code is similar to that used in the Love Running walkthough project */
+/* The emphasis was on creating an image that grabbed attention */
 #hero-outer {
     height: 750px;
     width: 100%;
@@ -129,7 +127,7 @@
 
     position: relative;
 }
-
+ /*Creates the floating text over the hearo image */
 #cover-text,
 #cover-text h2 {
     color: #dbcdcd;
@@ -150,8 +148,7 @@
     animation-fill-mode: forwards;
 }
 
-/* creates the zoom for the hero image */
-
+/* creates the zoom for the Hero image */
 @keyframes hero-zoom {
     from {
         transform: scale (1);
@@ -184,15 +181,13 @@
     position: absolute;
 }
 
-/* welcome section*/
 
+/* Welcome section*/
 #welcome {
     min-height: 30rem;
     max-width: 100%;
     background-color: #ffefca;
     text-align: center;
-    
-
 }
 
 #welcome h2 {
@@ -216,50 +211,12 @@
     line-height: 25px;
     margin: 0 auto;
     padding: 1.75rem;
-
 }
 
 
 
-/* about section */
+/* About Us section */
 
-.outer-circle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    border: 1px solid #842600;
-
-}
-
-.about-circle {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 2.5px solid #555;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 0 2px 2px #555;
-
-}
-
-#circle-cover-bg {
-    background: url('/assets/images/pexels-sharon-mccutcheon-3802075.jpg') no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-}
-
-i {
-    display: flex;
-    font-size: 3rem;
-    padding: 1rem;
-    justify-content: center;
-    text-align: center;
-    color: #cea716;
-
-}
 
 .icon-flex,
 .icon-wrapper {
@@ -276,7 +233,6 @@ i {
     width: 80px;
     height: 80px;
     margin: 1rem;
-
 }
 
 .icon-wrapper i {
@@ -416,69 +372,150 @@ i {
 
 
 /* Contact Us section */
-
+/* creates the container grid to align the text, form and map areas */
 .contact {
-
-    padding: 1.5rem;
-    text-align: center;
-
-    min-height: 10rem;
-    max-width: 100%;
-    background-color: #dbcdcd;
+    font-family: 'Comfortaa',sans-serif;
+    height: 100vh;
+    align-items: center;
+    display: grid;
 }
 
 .contact h2 {
-    font-family: 'Comfortaa', sans-serif;
+    text-align: center;
     font-size: 2rem;
-    text-transform: capitalize;
-    margin: auto;
-    max-width: 40ch;
-
+    padding: 1.25rem 1.75rem;
 }
 
-.form-container {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.25rem;
+ /* container to display the contact details and map side by side */
+.contact-wrapper {
+    display: flex;
+    flex-wrap: wrap;
 
-    border: 2px solid #555;
-    /* placeholder color value */
+    min-height: auto;
+    max-width: 100%;
+    margin: auto;
+    background-color: #303149;
+    color: #fff;
+}
+
+.contact-details {
+    padding: 40px 30px;
+}
+
+.contact-details:nth-child(1) {
+    flex: 30%;
+}
+
+.contact-details:nth-child(2) {
+    flex: 35%;
+    padding: 0;
+}
+
+.contact-details:nth-child(3) {
+    flex: 35%;
+    padding: 0;
+}
+
+.contact-details h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: .75rem;
+}
+
+.contact-details h3 i {
+    font-size: 1.5rem;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background: #dbcdcd;
+    color: #000;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.contact-details p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+/* creates a container to hold all the form information */
+.contact-details form {
+    width: 100%;
+    height: auto;
     background-color: #cea716;
     color: white;
-    box-shadow: 0 0 2px 2px;
-    border-radius: 10px;
+}
 
-    padding: .5rem .75rem;
-    margin: 0 auto;
-    max-width: 40ch;
+form h3 {
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 1rem;
+}
 
-    align-content: space-between;
-    text-align: left;
+.contact-details .form-input {
+    font-size: 1rem;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+	padding: 5px;
 }
 
 .radio-btn {
+    height: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+form .form-button {
+    width: 80%;
+    height: 40px;
+    border: 1px solid #555;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    font-size: 1rem;
     text-align: center;
 }
 
-.form-btn {
-    text-align: center;
+.contact-details iframe {
+    width: 100%;
+    height: 100%;
 }
 
-.map {
-    border: 2px solid #555;
-    min-height: 500px;
-    max-width: 100%;
-    padding: .5rem 1rem;
-    display: block;
+/* media queries to make the panels responsive on smaller devices*/
+@media screen and (max-width:700px) {
+	.contact-details:nth-child(1) {
+		flex: 50%;
+	}
+
+	.contact-details:nth-child(2) {
+		flex: 50%;
+	}
+
+	.contact-details:nth-child(3) {
+		flex: 100%;
+	}
+
 }
 
-iframe {
-    border: 2px solid #555;
-    border-radius: 15px;
-    float: right;
-    overflow: hidden;
+@media screen and (max-width:300px) {
+	.contact-details:nth-child(1) {
+		flex: 50%;
+	}
+
+	.contact-details:nth-child(2) {
+		flex: 50%;
+	}
+
+	.contact-details:nth-child(3) {
+		flex: 100%;
+	}
 
 }
 
+
+*/
 /* buttons */
 
 .contact-btn {
@@ -493,7 +530,7 @@ iframe {
     cursor: pointer;
     text-decoration: none;
     border: .25em solid #847655;
-    background-color: #03011e;
+    background: transparent;
     color: #cea716;
 
     padding: .5em 1em;
@@ -556,7 +593,7 @@ footer p {
 
 }
 
-.social-networks>li {
+.social-networks > li {
     display: inline-block;
 }
 
