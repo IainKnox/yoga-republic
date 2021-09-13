@@ -383,7 +383,7 @@
 .contact h2 {
     text-align: center;
     font-size: 2rem;
-    padding: 1.25rem 1.75rem;
+    padding: 100px 1.75rem;
 }
 
  /* container to display the contact details and map side by side */
@@ -407,12 +407,12 @@
 }
 
 .contact-details:nth-child(2) {
-    flex: 35%;
+    flex: 40%;
     padding: 0;
 }
 
 .contact-details:nth-child(3) {
-    flex: 35%;
+    flex: 30%;
     padding: 0;
 }
 
@@ -519,14 +519,17 @@ form .form-button {
 /* buttons */
 
 .contact-btn {
-    padding-top: 1rem;
+    width: auto;
+    margin: 0 auto;
+    
 }
+
+
 
 .button {
     font-size: 1rem;
     text-transform: uppercase;
 
-    display: inline-flexbox;
     cursor: pointer;
     text-decoration: none;
     border: .25em solid #847655;
