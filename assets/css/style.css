@@ -114,6 +114,10 @@
         padding: .5rem 1rem;
     }
 
+    .sticky {
+        position: static;
+    }
+
 }
 
 /* hero image */
