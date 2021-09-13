@@ -50,7 +50,7 @@
     font-family: 'Comfortaa', sans-serif;
     font-size: 1.25rem;
     margin: 0;
-    padding: .6rem;
+    padding: .55rem;
     text-align: center;
     background-color: #303149;
     color: #cea716
@@ -123,7 +123,7 @@
 /* hero image */
 
 #hero-outer {
-    height: 600px;
+    height: 750px;
     width: 100%;
     overflow: hidden;
 
@@ -138,7 +138,7 @@
 }
 
 #hero-image {
-    height: 800px;
+    height: 900px;
     width: 100%;
     background: url('/assets/images/hero-image.jpg') no-repeat center center;
     background-color: #03011e;
@@ -191,6 +191,7 @@
     max-width: 100%;
     background-color: #ffefca;
     text-align: center;
+    
 
 }
 
@@ -202,7 +203,7 @@
     max-width: 15ch;
     line-height: 50px;
     margin: 0 auto;
-    padding: 1.75rem;
+    padding: 100px 0 20px;
     border-bottom: 1px solid #402e32;
 }
 
@@ -505,6 +506,37 @@ iframe {
 .button:hover {
     background-color: #847655;
 }
+
+/* Thank You section */
+.thanks {
+    width: 100%;
+    min-height: 500px;
+    background-color: #ffefca;
+    background-image: url('/assets/images/pexels-sharon-mccutcheon-3802075.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode:multiply ;
+    text-align: center;
+    justify-items: center;
+}
+
+.thanks h2 {
+    font-family: 'Comfortaa',sans-serif;
+    font-size: 2rem;
+    margin: 0 auto;
+    padding: 6rem .5rem;
+    max-width: 30ch;
+}
+
+.thanks p {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1.25rem;
+    margin: 0 auto;
+    padding-top: 1.25rem;
+    max-width: 30ch;
+}
+
 
 /* footer section */
 footer {
