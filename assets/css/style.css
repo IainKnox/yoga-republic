@@ -282,8 +282,16 @@
 /* About Us page */
 /* Contains information regarding Instructors, Yoga styles and a Timetable*/
 
+.white-space {
+    width: 100%;
+    height: 100px;
+    background: #fff;
+    z-index: 1;
+}
+
 #instructors {
     font-family: 'Montserrat';
+    background-color: #303149;
     display: grid;
     grid-template-columns: repeat(auto-fit, 20rem);
     align-self: flex-start;
@@ -295,7 +303,7 @@
     box-shadow: 0px 2px 8px 0px #303149;
     width: 80%;
     max-width: 400px;
-    margin: 40px;
+    margin: 80px 40px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -305,9 +313,16 @@
     padding: 1rem;
 }
 
+.instructor-card:hover {
+    transform: scale(1.12);
+    transition: all 200ms ease-in-out;
+}
+
 .profile-image {
     border-radius: 50%;
     border: 4px solid #fff;
+    width: 200px;
+    height: auto;
 }
 
 .profile-name {
@@ -357,6 +372,7 @@
 
 #yoga-styles {
     font-family: 'Montserrat';
+    background-color: #402e32;
     display: grid;
     grid-template-columns: repeat(auto-fit, 20rem);
     align-self: flex-start;
@@ -365,7 +381,7 @@
 
 .yoga-card-wrapper {
     max-width: 400px;
-    margin: 40px;
+    margin: 80px 40px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -373,7 +389,7 @@
 
     height: 360px;
     position: relative;
-    perspective: 1000px;
+    perspective: 800px;
 
     
 }
@@ -388,9 +404,12 @@
 }
 
 .yoga-img {
+    max-width: 250px;
+    height: auto;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-blend-mode:soft-light;
 }
 .yoga-card:hover {
     transform: rotateY(180deg);
@@ -408,24 +427,26 @@
 .yoga-card-back {
     background: #fff;
     color: #03011e;
+    width: 100%;
+    height: 100%;
     text-align: center;
     transform: rotateY(180deg);
 }
 .yoga-card .class-detail {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.25rem;
-    padding: 1rem;
+    font-size: .8rem;
+    padding: .75rem;
     max-width: 40ch;
     margin: auto 0;
 }
 .yoga-card .class-level {
     font-family: 'Roboto';
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 .yoga-card .class-name {
     font-family: 'Courgette', sans-serif;
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: lighter;
     padding: .5rem;
     max-width: 40ch;
@@ -435,7 +456,6 @@
 .yoga-card-front {
     background-image: linear-gradient(#03011e, #ffefca);
     color: #ffefca;
-    border-radius: 5px;
 }
  
 
