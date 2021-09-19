@@ -218,29 +218,37 @@
 
 
 /* About Us section */
+#about-us {
+    min-height: 30rem;
+    max-width: 100%;
+    font-family: 'Comfortaa';
+    overflow: hidden;
+}
 
 .card-wrapper {
     background: #03011e;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
     border-radius: 10px;
-    margin: 50px 20px 20px 20px;
+    margin: 80px 20px 40px 20px;
     width: calc(33% - 40px);
-    padding: 20px;
+    max-height: 500px;
+    padding: 30px;
     text-align: center;
     color: white;
     float: left;
 }
 
 .card-title {
-    font-size: 25px;
+    font-size: 1.5rem;
+    margin: 80px 0 0 0;
 }
 
 .card-icon {
-    margin: 50px 0;
+    margin: 40px 0;
 }
 
 .card-icon i {
-    font-size: 4rem;
+    font-size: 6rem;
     width: 100px;
     height: 100px;
     color: #cea716;
@@ -248,7 +256,7 @@
 
 .card-features {
     padding: 0;
-    margin: 20px 0 50px 0;
+    margin: 20px 0 40px 0;
     list-style-type: none;
 }
 
@@ -263,8 +271,8 @@
     display: block;
     background: #847655;
     color: white;
-    padding: 15px 20px;
-    margin: 20px 0;
+    padding: 1rem;
+    margin: 1rem 0;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.9);
     transition: all 200ms ease-in-out;
@@ -272,10 +280,11 @@
 }
 
 .btn:hover {
-    background: #03011e;
+    background: #847655;
+    cursor: pointer;
 }
 
-/* Media Queries */
+/* Media Queries to make the cards responsive on smaller devices*/
 @media (max-width: 768px) {
     .card-wrapper {
     margin: 10px 20px;
@@ -365,7 +374,6 @@
 
 
 /* instructor card */
-
 .wrapper-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, 20rem);
@@ -416,22 +424,28 @@
     font-weight: bold;
     color: white;
     padding: 1rem;
-    background-color: var(--clr-primary);
+    background-color: #03011e;
 }
 
 
 /* Contact Us section */
-/* creates the container grid to align the text, form and map areas */
+#contact {
+    min-height: 10rem;
+    max-width: 100%;
+    margin: auto 0;
+    overflow: hidden;
+    background-color: #03011e;
+    color: white;
+}
 .contact {
     font-family: 'Comfortaa', sans-serif;
     align-items: center;
-    display: grid;
 }
 
 .contact h2 {
     text-align: center;
     font-size: 2rem;
-    padding: 100px 1.75rem;
+    padding: 1.8rem;
 }
 
 /* container to display the contact details and map side by side */
@@ -566,32 +580,31 @@ form .form-btn {
 /* buttons */
 
 .contact-btn {
-    width: auto;
+    width: 8rem;
     margin: 0 auto;
-
 }
-
-
 
 .button {
     font-size: 1rem;
-    text-transform: uppercase;
+    text-align: center;
+    
+    background-color: #cea716;
+    border: 1px solid white;
+    color: #fff;
 
-    cursor: pointer;
+    padding: 1rem;
+    margin: .5rem 0;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.9);
+    transition: all 200ms ease-in-out;
     text-decoration: none;
-    border: .25em solid #847655;
-    background: transparent;
-    color: #cea716;
-
-    padding: .5em 1em;
-    margin: .8em;
-    border-radius: 1em;
-
-
 }
 
 .button:hover {
-    background-color: #847655;
+    background-color: #03011e;
+    color: #fff;
+    border: 1px solid #cea716;
+    cursor: pointer;
 }
 
 /* Thank You section */
@@ -627,7 +640,7 @@ form .form-btn {
 
 /* footer section */
 footer {
-    min-height: 100px;
+    min-height: 6rem;
 
 }
 
