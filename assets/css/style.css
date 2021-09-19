@@ -284,14 +284,23 @@
 
 .white-space {
     width: 100%;
-    height: 100px;
+    height: auto;
     background: #fff;
     z-index: 1;
 }
 
+.about-heading {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    
+    padding: 1rem;
+    margin-top: 80px;
+}
+
 #instructors {
     font-family: 'Montserrat';
-    background-color: #303149;
+    
     display: grid;
     grid-template-columns: repeat(auto-fit, 20rem);
     align-self: flex-start;
