@@ -226,46 +226,62 @@
 }
 
 .card-wrapper {
-    margin: 50px 20px 20px;
-    width: calc(33% - 40px);
+    background: #03011e;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    border-radius: 5px;
+    margin: 50px 20px 20px 20px;
+    width: calc(33.3333% - 40px); /* 1/3 minus the margins (20+20) */
     padding: 20px;
     text-align: center;
-    color: #fff;
+    color: white;
     float: left;
     @media (max-width: 768px) {
-        margin: 10px 20px;
-        width: calc(100% - 40px);
-        &:first-child {
-            margin-top: 20px;
-        }
+      margin: 10px 20px;
+      width: calc(100% - 40px);
+      &:first-child {
+        margin-top: 20px;
+      }
     }
     &:nth-child(2) {
-        margin: 20px 0;
-        width: 33%;
-        padding: 50px 20px;
-        @media (max-width: 768px) {
-            margin: 10px 20px;
-            width: calc(100% - 40px);
-        }
+      margin: 20px 0px;
+      width: 33.3333%;
+      padding: 50px 20px;
+      @media (max-width: 768px) {
+        margin: 10px 20px;
+        width: calc(100% - 40px);
+      }
     }
+    .card-title {
+      font-size: 25px;
+    }
+    
+    .card-features {
+        padding: 0;
+        margin: 20px 0 50px 0;
+        list-style-type: none;
+    }
+    .card-features p {
+          margin: 10px 0;
+          font-size: 14px;
+          
+        }
+    
+    
+    .btn {
+      display: block;
+      background: #847655;
+      color: white;
+      padding: 15px 20px;
+      margin: 20px 0;
+      border-radius: 5px;
+      box-shadow: rgba(0,0,0,0.9);
+      transition: all 200ms ease-in-out;
+      text-decoration: none;
+    }
+      .btn:hover {
+        background: #fff;
+      }
 }
-
-.card-title {
-    font-size: 25px;
-
-}
-
-.card-features {
-    padding: 0;
-    margin: 20px 0 50px 0;
-}
-
-.card-features p {
-    margin: 10px 0;
-    font-size: 14px;
-    border-bottom: 2px dotted #fff;
-}
-
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
@@ -278,7 +294,7 @@
     /* Remove this if you don't want the 3D effect */
 }
 
-/* 
+
 /* This container is needed to position the front and back side */
 .flip-card-inner {
     position: relative;
@@ -343,7 +359,7 @@
     font-weight: lighter;
 }
 
-*/
+
 /* instructor card */
 
 .wrapper-grid {
@@ -404,7 +420,6 @@
 /* creates the container grid to align the text, form and map areas */
 .contact {
     font-family: 'Comfortaa', sans-serif;
-    height: 100vh;
     align-items: center;
     display: grid;
 }
@@ -476,10 +491,14 @@
     color: white;
 }
 
-form h3 {
-    font-size: 1.25rem;
+.contact-details form h3 {
+    font-size: 1.75rem;
     text-align: center;
     padding: 1rem;
+}
+
+.contact-details label {
+    margin-left: .6rem;
 }
 
 .contact-details .form-input {
@@ -491,19 +510,14 @@ form h3 {
 }
 
 .radio-btn {
-    height: 20px;
-    align-items: center;
+    font-size: 1.25rem;
+    padding: .25rem;
+    text-align: center;
     cursor: pointer;
 }
 
-form .form-button {
-    width: 80%;
-    height: 40px;
-    border: 1px solid #555;
-    outline: none;
-    background: transparent;
-    color: #fff;
-    font-size: 1rem;
+form .form-btn {
+    display: block;
     text-align: center;
 }
 
@@ -544,7 +558,7 @@ form .form-button {
 }
 
 
-*/
+
 /* buttons */
 
 .contact-btn {
@@ -610,6 +624,7 @@ form .form-button {
 /* footer section */
 footer {
     min-height: 100px;
+
 }
 
 footer p {
