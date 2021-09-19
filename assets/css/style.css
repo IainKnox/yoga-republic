@@ -219,69 +219,73 @@
 
 /* About Us section */
 
-.about-us {
-    height: 600px;
-    width: 100%;
-    border: 2px solid #000;
-}
-
 .card-wrapper {
     background: #03011e;
-    box-shadow: 0 0 20px rgba(0,0,0,0.4);
-    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
     margin: 50px 20px 20px 20px;
-    width: calc(33.3333% - 40px); /* 1/3 minus the margins (20+20) */
+    width: calc(33% - 40px);
     padding: 20px;
     text-align: center;
     color: white;
     float: left;
-    @media (max-width: 768px) {
-      margin: 10px 20px;
-      width: calc(100% - 40px);
-      &:first-child {
-        margin-top: 20px;
-      }
-    }
-    &:nth-child(2) {
-      margin: 20px 0px;
-      width: 33.3333%;
-      padding: 50px 20px;
-      @media (max-width: 768px) {
-        margin: 10px 20px;
-        width: calc(100% - 40px);
-      }
-    }
-    .card-title {
-      font-size: 25px;
-    }
-    
-    .card-features {
-        padding: 0;
-        margin: 20px 0 50px 0;
-        list-style-type: none;
-    }
-    .card-features p {
-          margin: 10px 0;
-          font-size: 14px;
-          
-        }
-    
-    
-    .btn {
-      display: block;
-      background: #847655;
-      color: white;
-      padding: 15px 20px;
-      margin: 20px 0;
-      border-radius: 5px;
-      box-shadow: rgba(0,0,0,0.9);
-      transition: all 200ms ease-in-out;
-      text-decoration: none;
-    }
-      .btn:hover {
-        background: #fff;
-      }
 }
+
+.card-title {
+    font-size: 25px;
+}
+
+.card-icon {
+    margin: 50px 0;
+}
+
+.card-icon i {
+    font-size: 4rem;
+    width: 100px;
+    height: 100px;
+    color: #cea716;
+}
+
+.card-features {
+    padding: 0;
+    margin: 20px 0 50px 0;
+    list-style-type: none;
+}
+
+.card-features p {
+    margin: 10px 0;
+    font-size: 14px;
+
+}
+
+
+.btn {
+    display: block;
+    background: #847655;
+    color: white;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.9);
+    transition: all 200ms ease-in-out;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #03011e;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .card-wrapper {
+    margin: 10px 20px;
+    width: calc(100% - 40px);
+    }
+    .card-wrapper:first-child {
+        margin-top: 20px;
+    }
+}
+ 
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
