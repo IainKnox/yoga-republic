@@ -555,49 +555,69 @@
     font-weight: lighter;
 }
 
-
-/* instructor card */
-.wrapper-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 20rem);
-    justify-content: center;
-}
-
-.container {
-    overflow: hidden;
-    box-shadow: 0px 2px 8px 0px #303149;
-    background-color: white;
-    text-align: center;
-    border-radius: 1rem;
-    position: relative;
-    margin: 0.5rem;
-}
-
-.banner-img {
-    position: absolute;
-    background-image: linear-gradient(#03011e, white);
-
-    height: 15rem;
-    width: 100%;
-    background-position: center;
+/* timetable */
+#timetable {
+    background: url(/assets/images/joshua-woroniecki--5nwt_aN2E0-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+.yoga-time {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffefca;
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 50px 0 0 10px;
+    text-align: center;
+    border: 2px solid #fff;
 }
 
-.profile-img {
-    width: 8rem;
-    clip-path: circle(60px at center);
-    margin-top: 4.5rem;
+.yoga-time h2 {
+    font-family: 'Courgette',sans-serif;
+    font-size: 1.7rem;
+    font-weight: lighter;
+    padding: .5rem;
 }
 
-.name {
-    font-weight: bold;
-    font-size: 1.5rem;
+.yoga-time h2::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 2em; 
+    margin: .5em auto;
+    background-color: #cea716
 }
 
-.description {
-    margin: 1rem 2rem;
-    font-size: 0.9rem;
+.yoga-time h3 {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: .75rem;
+    padding: 0 0 1rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.yoga-time p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8rem;
+    letter-spacing: 3px;
+}
+
+/*media query */
+@media screen and (max-width: 1200px ) {
+    .yoga-time {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
+    .yoga-time h2::after {
+        visibility: hidden;
+        margin: 0;
+    }
 }
 
 
