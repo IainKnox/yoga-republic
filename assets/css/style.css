@@ -52,7 +52,12 @@
     padding: .55rem;
     text-align: center;
     background-color: #303149;
-    color: #cea716
+    color: #cea716;
+}
+/* create an anchor on the brand logo that return the user back to home on click*/
+.brand-logo a { 
+    text-decoration: none;
+    color: #cea716;
 }
 
 .navbar-links ul {
@@ -129,7 +134,7 @@
     position: relative;
 }
 
-/*Creates the floating text over the hearo image */
+/*Creates the floating text over the hero image */
 #cover-text,
 #cover-text h2 {
     color: #dbcdcd;
@@ -141,8 +146,8 @@
     height: 900px;
     width: 100%;
     background: url('/assets/images/hero-image.jpg') no-repeat center center;
-    background-color: #03011e;
-    /* background-blend-mode: ; */
+    background-color: #303149;
+    background-blend-mode:luminosity;
 
     /*animates zoom effect on loading page*/
     animation: hero-zoom;
@@ -286,7 +291,6 @@
     width: 100%;
     height: auto;
     background: #fff;
-    z-index: 1;
 }
 
 .about-heading {
@@ -399,8 +403,6 @@
     height: 360px;
     position: relative;
     perspective: 800px;
-
-    
 }
 
 .yoga-card {
@@ -545,8 +547,6 @@
     max-width: 10ch;
     margin: .5rem 1.25rem;
 
-
-
 }
 
 .flip-card-back h2 {
@@ -618,6 +618,14 @@
         visibility: hidden;
         margin: 0;
     }
+}
+
+.contact p {
+    text-align: center;
+    font-size: 1rem;
+    margin: 20px auto;
+    padding: .5rem;
+
 }
 
 
@@ -916,10 +924,10 @@ footer p {
         font-size: .75rem;
         font-family: 'Montserrat', sans-serif;
         text-transform: uppercase;
-        letter-spacing: .25rem;
+        letter-spacing: 4px;
         text-align: center;
 
-        max-width: 20ch;
+        max-width: 25ch;
         border-radius: 20px;
 
         padding: .5rem 1.25rem;
