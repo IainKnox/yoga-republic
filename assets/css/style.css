@@ -23,7 +23,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(206, 167, 22, .4);
+    background-color: #303149;
     color: white;
     padding-right: 10px;
 }
@@ -33,7 +33,10 @@
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+}
 
+.infront {
+    z-index: 1;
 }
 
 .brand-name h1 {
@@ -79,12 +82,13 @@
 }
 
 .navbar-links li:hover {
-    background-color: #303149;
+    background-color: #cea716;
 }
 
 .active {
-    background-color: #303149;
+    background-color: #cea716;
 }
+
 
 /* media query to change the flow of the navbar on mobile devices*/
 @media screen and (max-width: 400px) {
@@ -128,7 +132,7 @@
 /* This code is similar to that used in the Love Running walkthough project */
 /* The emphasis was on creating an image that grabbed attention */
 #hero-outer {
-    height: 750px;
+    height: 650px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -202,22 +206,28 @@
     font-size: 2.5rem;
     font-weight: 300;
     color: #842600;
-    max-width: 15ch;
+    max-width: 18ch;
     line-height: 50px;
     margin: 0 auto;
     padding: 100px 0 20px;
-    border-bottom: 1px solid #402e32;
+    border-bottom: 2px solid #402e32;
 }
 
 #welcome p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500;
     color: #402E32;
-    max-width: 25ch;
+    max-width: 40ch;
     line-height: 25px;
-    margin: 0 auto;
-    padding: 1.75rem;
+    margin: auto;
+    padding: .75rem;
+}
+
+#welcome em {
+    font-size: 1rem;
+    border-bottom: 1px solid #cea716;
+    color: #03011e;
 }
 
 
@@ -300,7 +310,7 @@
     text-align: center;
 
     padding: 1rem;
-    margin-top: 80px;
+    margin: 40px auto;
 }
 
 #instructors {
