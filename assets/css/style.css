@@ -833,31 +833,28 @@ form .form-btn {
 .btn {
     width: 100%;
     font-family: 'Montserrat';
-    font-size: 1rem;
+    font-size: 1.12rem;
     font-weight: bold;
 
     background-color: #03011e;
+    border: 2px solid #847655;
     box-shadow: rgba(0, 0, 0, 0.9);
-    color: white;
+    color:#847655;
 
     padding: 1rem;
     margin: 1rem auto;
-    border-radius: 5px;
+    border-radius: 10px;
 
     transition: all 200ms ease-in-out;
     text-decoration: none;
-    border: none;
 }
 
 .btn:hover {
     background: #847655;
+    color: #fff;
     cursor: pointer;
 }
 
-.btn a {
-    text-decoration: none;
-    color: #fff;
-}
 
 
 
@@ -928,8 +925,7 @@ footer p {
     right: 0;
     bottom: .25rem;
     font-size: 2rem;
-    color: #03011e;
-    opacity: 0.65;
+    color: #cea716;
 }
 
 /* media queries */
