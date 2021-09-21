@@ -59,7 +59,7 @@
 }
 
 /* create an anchor on the brand logo that return the user back to home on click*/
-.brand-logo a {
+.brand-logo a, .brand-name a {
     text-decoration: none;
     color: #cea716;
 }
@@ -936,6 +936,11 @@ footer p {
     bottom: .25rem;
     font-size: 2rem;
     color: #cea716;
+
+}
+
+.arrow-top p {
+    font-size: 1.3rem;
 }
 
 /* media queries */
