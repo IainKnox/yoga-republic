@@ -54,8 +54,9 @@
     background-color: #303149;
     color: #cea716;
 }
+
 /* create an anchor on the brand logo that return the user back to home on click*/
-.brand-logo a { 
+.brand-logo a {
     text-decoration: none;
     color: #cea716;
 }
@@ -146,7 +147,7 @@
     width: 100%;
     background: url('/assets/images/hero-image.jpg') no-repeat center center;
     background-color: #303149;
-    background-blend-mode:luminosity;
+    background-blend-mode: luminosity;
 
     /*animates zoom effect on loading page*/
     animation: hero-zoom;
@@ -275,9 +276,10 @@
 /* Media Queries to make the cards responsive on smaller devices*/
 @media (max-width: 768px) {
     .card-wrapper {
-    margin: 10px 20px;
-    width: calc(100% - 40px);
+        margin: 10px 20px;
+        width: calc(100% - 40px);
     }
+
     .card-wrapper:first-child {
         margin-top: 20px;
     }
@@ -296,19 +298,19 @@
     font-family: 'Comfortaa', sans-serif;
     font-size: 3rem;
     text-align: center;
-    
+
     padding: 1rem;
     margin-top: 80px;
 }
 
 #instructors {
     font-family: 'Montserrat';
-    
+
     display: grid;
-    grid-template-columns: repeat(auto-fit, 20rem);
+    grid-template-columns: repeat(auto-fit, 25%);
     align-self: flex-start;
     justify-content: space-evenly;
-    
+
 }
 
 .instructor-card {
@@ -347,7 +349,7 @@
     content: "";
     display: block;
     height: 1px;
-    width: 2em; 
+    width: 2em;
     margin: .5em auto;
     background-color: #cea716
 }
@@ -365,8 +367,21 @@
     margin-bottom: 0;
 
 }
+
+/* Media query to make the cards stack side by side on larger displays*/
+@media screen and (max-width: 1140px) {
+    #instructors {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 25rem);
+        align-self: flex-start;
+        justify-content: space-evenly;
+    }   
+}
+
 /* Media query to make the cards responsive when scaling down to smaller screens*/
-@media (min-width: 600px) {
+@media screen and (min-width: 600px) {
+
+
     .instructor-card {
         flex-direction: row;
     }
@@ -379,7 +394,6 @@
     .profile-name::after {
         margin-left: 0;
     }
-
 }
 
 #yoga-styles {
@@ -419,8 +433,9 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-blend-mode:soft-light;
+    background-blend-mode: soft-light;
 }
+
 .yoga-card:hover {
     transform: rotateY(180deg);
     cursor: pointer;
@@ -442,6 +457,7 @@
     text-align: center;
     transform: rotateY(180deg);
 }
+
 .yoga-card .class-detail {
     font-family: 'Montserrat', sans-serif;
     font-size: .8rem;
@@ -449,6 +465,7 @@
     max-width: 40ch;
     margin: auto 0;
 }
+
 .yoga-card .class-level {
     font-family: 'Roboto';
     font-size: .8rem;
@@ -467,11 +484,11 @@
     background-image: linear-gradient(#03011e, #ffefca);
     color: #ffefca;
 }
- 
 
+/*remove this code*/
 /* The flip card container - set the width and height to whatever you want */
 .flip-card {
-    
+
     background-color: transparent;
     max-width: 200px;
     min-height: 260px;
@@ -484,7 +501,7 @@
     grid-template-columns: repeat(auto-fit, 20rem);
     align-self: flex-start;
     justify-content: space-evenly;
-    
+
     margin: 40px;
     color: #fff;
     text-align: center;
@@ -563,6 +580,7 @@
     width: 100%;
     overflow: hidden;
 }
+
 .yoga-time {
     background-color: rgba(0, 0, 0, 0.5);
     color: #ffefca;
@@ -575,7 +593,7 @@
 }
 
 .yoga-time h2 {
-    font-family: 'Courgette',sans-serif;
+    font-family: 'Courgette', sans-serif;
     font-size: 1.7rem;
     font-weight: lighter;
     padding: .5rem;
@@ -585,7 +603,7 @@
     content: "";
     display: block;
     height: 1px;
-    width: 2em; 
+    width: 2em;
     margin: .5em auto;
     background-color: #cea716
 }
@@ -605,7 +623,7 @@
 }
 
 /*media query */
-@media screen and (max-width: 1200px ) {
+@media screen and (max-width: 1200px) {
     .yoga-time {
         width: 100%;
         clear: both;
@@ -639,6 +657,7 @@
     background-color: #03011e;
     color: white;
 }
+
 .contact {
     font-family: 'Comfortaa', sans-serif;
     align-items: center;
@@ -789,7 +808,7 @@ form .form-btn {
 .button {
     font-size: 1rem;
     text-align: center;
-    
+
     background-color: #cea716;
     border: 1px solid white;
     color: #fff;
@@ -824,7 +843,7 @@ form .form-btn {
     padding: 1rem;
     margin: 1rem auto;
     border-radius: 5px;
-    
+
     transition: all 200ms ease-in-out;
     text-decoration: none;
     border: none;
