@@ -704,6 +704,7 @@
 }
 
 .contact-details {
+    font-family: 'Comfortaa', sans-serif;
     padding: 40px 30px;
 }
 
@@ -926,7 +927,7 @@ form .form-btn {
 
 /* footer section */
 footer {
-    min-height: 6rem;
+    min-height: 8rem;
 
 }
 
