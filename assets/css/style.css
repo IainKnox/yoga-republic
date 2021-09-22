@@ -150,7 +150,7 @@
 #hero-image {
     height: 900px;
     width: 100%;
-    background: url('/assets/images/hero-image.jpg') no-repeat center center;
+    background: url('assets/images/hero-image.jpg') no-repeat center center;
     background-color: #303149;
     background-blend-mode: luminosity;
 
@@ -523,7 +523,7 @@
 /* timetable */
 /* image used to create the tiled block effect on the yoga.html page */
 #timetable {
-    background: url(/assets/images/joshua-woroniecki--5nwt_aN2E0-unsplash.jpg);
+    background: url('assets/images/joshua-woroniecki--5nwt_aN2E0-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -849,7 +849,7 @@ form .form-btn {
     width: 100%;
     min-height: 500px;
     background-color: #ffefca;
-    background-image: url('/assets/images/thank-you-rainbow-heart.jpg');
+    background-image: url('assets/images/thank-you-rainbow-heart.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
