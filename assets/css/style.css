@@ -244,7 +244,7 @@
     background: #03011e;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
     border-radius: 10px;
-    margin: 80px 20px 40px 20px;
+    margin: 40px 20px;
     width: calc(33% - 40px);
     max-height: 500px;
     padding: 30px;
@@ -311,6 +311,15 @@
 
     padding: 1rem;
     margin: 40px auto;
+}
+
+.about-heading::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 5em;
+    margin: .5em auto;
+    background-color: #cea716
 }
 
 #instructors {
@@ -406,9 +415,12 @@
     }
 }
 
+
+/* Yoga flip cards for the yoga styles */
+/* Each card contains an image and title on the front, and flips 180degrees to display information regarding the style and level required */
 #yoga-styles {
     font-family: 'Montserrat';
-    background-color: #402e32;
+    background-color: #fff;
     display: grid;
     grid-template-columns: repeat(auto-fit, 20rem);
     align-self: flex-start;
