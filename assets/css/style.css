@@ -64,6 +64,10 @@
     color: #cea716;
 }
 
+.brand-logo, .brand-name:hover {
+    transform: scale(1.1);
+}
+
 .navbar-links ul {
     margin: 0;
     padding: 0;
@@ -615,7 +619,7 @@
     height: 1px;
     width: 2em;
     margin: .5em auto;
-    background-color: #cea716
+    background-color: #cea716;
 }
 
 .yoga-time h3 {
@@ -736,14 +740,23 @@
 .contact-details form {
     width: 100%;
     height: auto;
-    background-color: #cea716;
+    background-color: #303149;
     color: white;
 }
 
-.contact-details form h3 {
+.contact-details form h3,
+.contact-details .contact-header {
     font-size: 1.75rem;
     text-align: center;
-    padding: 1rem;
+}
+
+.contact-header::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 5em;
+    margin: .5em auto;
+    background-color: #cea716;
 }
 
 .contact-details label {
@@ -821,7 +834,7 @@ form .form-btn {
 
     background-color: #cea716;
     border: 1px solid white;
-    color: #fff;
+    color: #03011e;
 
     padding: 1rem;
     margin: .5rem 0;
