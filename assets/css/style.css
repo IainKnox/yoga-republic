@@ -740,7 +740,11 @@
     color: white;
 }
 
-.contact-details form h3,
+.contact-details form h3 {
+    margin: 1.5em auto;
+font-size: 1.75rem;
+    text-align: center;
+}
 .contact-details .contact-header {
     font-size: 1.75rem;
     text-align: center;
