@@ -17,7 +17,7 @@ Yoga Republic will be useful to users looking to find a specific yoga style suit
     * This is the first section and contains the **Yoga Republic** heading and the navigation elements.
     * This section introduces the user to Yoga Republic with an eye catching animation to grab their attention
     and a welcoming message introducing them to the site.
-    ![Home Page](/assets/images/readme-img/landing-page.png)
+    * ![Home Page](/assets/images/readme-img/landing-page.png)
     <p>&nbsp;</p>
     <hr>
 
@@ -27,14 +27,14 @@ Yoga Republic will be useful to users looking to find a specific yoga style suit
     * The **About Us** link directs the user to the *about page*. Also located within the *Home page*, users have access to more information about the studio by following either the **Our Community**, **Our Values** or **Our Yoga** links respectively, which will open eithe the *About page* or *Yoga Page*.
     * The **Our Yoga** link directs the user to the *our yoga* page which contains detailed information on the yoga styles taught and availability of classes. 
     * The **Contact Us** link directs users to the *contact page*. Also located within the *Home page*, users can choose to either follow various calls to action which will take them to the **Classess** page or follow the **Contact Us** link which will open a contact form for submission.
-    ![Navigation bar](/assets/images/readme-img/nav-bar.png)
+    * ![Navigation bar](/assets/images/readme-img/nav-bar.png)
     * A further design element of the navbar is that it scrolls with the user as they navigate from the top down through a page, giving the user the flexibility to move on through the site without having to scroll back to the top.
     <p>&nbsp;</p>
 
-One of the key factors with the site is responsive design, and with the navbar this is carried through in the way in which it behaves on smaller screens, with it taking up 100% width and stacking for easier readability and an improved user experience that doesn't detract the focus away from the site.
-![Responsive Navigation](/assets/images/readme-img/nav-bar-responsive.png)
-<p>&nbsp;</p>
-<hr>
+    *  One of the key factors with the site is responsive design, and with the navbar this is carried through in the way in which it behaves on smaller screens, with it taking up 100% width and stacking for easier readability and an improved user experience that doesn't detract the focus away from the site.
+    * ![Responsive Navigation](/assets/images/readme-img/nav-bar-responsive.png)
+    <p>&nbsp;</p>
+    <hr>
 
 * Home Page
     * The home page starts with the hero image and is broken down into a further 3 sections. 
@@ -47,7 +47,8 @@ One of the key factors with the site is responsive design, and with the navbar t
 * About Us Page
     * ![About us page](/assets/images/readme-img/about-us-page.png)
     * The about us page opens with a poweful quote regarding community in an attempt to ellicit the user to connect with the studios values and engage with its community. It also contains information regarding the instructors, and a further call to action.
-    * The instructors cards outline each teachers name and a brief bio pretaining to their role in the studio. On mouse over the card is transformed to scale up and demand the users attention. Mousing over the instructors name will also change the text color, so as to draw the users attention in even more.![Instructor Cards](/assets/images/readme-img/instructor-cards.png) 
+    * The instructors cards outline each teachers name and a brief bio pretaining to their role in the studio. On mouse over the card is transformed to scale up and demand the users attention. Mousing over the instructors name will also change the text color, so as to draw the users attention in even more.
+    * ![Instructor Cards](/assets/images/readme-img/instructor-cards.png) 
     <p>&nbsp;</p>
     <hr>
 
@@ -56,12 +57,12 @@ One of the key factors with the site is responsive design, and with the navbar t
     * Flip cards detailing the styles of yoga the studio offers and the level required to participate in a class. 
     * A timetable, detailing which days particular styles are taught on and the times of the class.
     * A call to action is present to spur the user to either book a class or get in touch with one of the team.
-    ![Yoga](/assets/images/readme-img/yoga-page.png)
-    ![Flip Cards](/assets/images/readme-img/yoga-flip-cards.png)
-    ![Timetable](/assets/images/readme-img/timetable.png)
+    * ![Yoga](/assets/images/readme-img/yoga-page.png)
+    * ![Flip Cards](/assets/images/readme-img/yoga-flip-cards.png)
+    * ![Timetable](/assets/images/readme-img/timetable.png)
     * The time table and flip cards elements are designed to be responsive on smaller screens and stack on top of each other so as to retain readability without breaking immersion.
     
-    ![Responsive Yoga](/assets/images/readme-img/timetable-responsive.png)
+    * ![Responsive Yoga](/assets/images/readme-img/timetable-responsive.png)
     <p>&nbsp;</p>
     <hr>
 
@@ -69,7 +70,7 @@ One of the key factors with the site is responsive design, and with the navbar t
     * The contact page again reinforces the call to action driven through the site, encouraging the user to get involved either by contacting the studio through traditional means such  as mail or phone, or through a sign up form. There is also a google map, allowing users to gain a physical sense of where the studio is located.
 
     * The form will allow the user to get signed up to Yoga Republic to start their mindfulness and fitness journey with the community. The user will be able specify if they would like to take part in the various activities offered at he studio. The user will be asked to submit their full name, email address and phone number. On submit the user will be taken to a **Thank you** page, with the full nav bar enabling them to continue their journey through the site.
-    ![Sign Up page](/assets/images/readme-img/contact-us-page.png)
+    * ![Sign Up page](/assets/images/readme-img/contact-us-page.png)
     <p>&nbsp;</p>
     <hr>
 
@@ -77,13 +78,13 @@ One of the key factors with the site is responsive design, and with the navbar t
     * When submitting the form from the *Contact Us* page, the user is directed to a thank you page, reinforcing the idea that their form has been recieved with a message informing the user that someone from the studio would be in touch.
     * The page retains the full navigation menu should the user wish to continue to browse for more information on the site.
     * The page has the contact details and google map on display, again to reinforce the idea of availablity through open communication.
-    ![Thank You page](/assets/images/readme-img/thank-you-page.png)
+    * ![Thank You page](/assets/images/readme-img/thank-you-page.png)
     <p>&nbsp;</p>
     <hr>
 
 * Footer
     * The footer container social media links that open a new browser window to the studio's Facebook, Twitter and Instagram pages. There is also a floating "up" arrow to take users back to the top of the page without having to scroll up manually. The arrow was designed to incorporate the YR logo so as to help build brand awareness with the user as they navigate through the site, on a more subconscious level.
-    ![Footer](/assets/images/readme-img/footer.png)
+    * ![Footer](/assets/images/readme-img/footer.png)
     <p>&nbsp;</p>
     <hr>
 
