@@ -41,11 +41,13 @@ One of the key factors with the site is responsive design, and with the navbar t
     * The welcome message gives a very concise message which helps to convey to the user what the site's main goal is and build on that in the form of the studios values and sense of community.
     * The about us cards act as a call to action to direct the user towards very specific goals, based on what is important to them. Whether that be the studios community, values or yoga teachings.The cards also portray this through the use of graphical icons. ![About Us Cards](/assets/images/readme-img/about-us-cards.png)
     * Lastly the home page has a direct call to action prompting the user to take the next step and either get in touch with the studio directly or navigate further into the site to gain more information.
+    <p>&nbsp</p>
+    <hr>
 
 * About Us Page
-![About us page](/assets/images/readme-img/about-us-page.png)
+    ![About us page](/assets/images/readme-img/about-us-page.png)
     * The about us page opens with a poweful quote regarding community in an attempt to ellicit the user to connect with the studios values and engage with its community. It also contains information regarding the instructors, and a further call to action.
-    * The instructors cards outline each teachers name and a brief bio pretaining to their role in the studio. On mouse over the card is transformed to scale up and demand the users attention. Mousing over the instructors name will also change the text color, so as to draw the users attention in even more.![Instructor Cards](/assets/images/readme-img/instructor-cards.png)
+    * The instructors cards outline each teachers name and a brief bio pretaining to their role in the studio. On mouse over the card is transformed to scale up and demand the users attention. Mousing over the instructors name will also change the text color, so as to draw the users attention in even more.![Instructor Cards](/assets/images/readme-img/instructor-cards.png) 
     <p>&nbsp;</p>
     <hr>
 
