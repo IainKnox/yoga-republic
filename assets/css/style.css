@@ -233,7 +233,7 @@
 
 
 
-/* navigation cards (community/ values/ yoga) on index.html */
+/* navigation cards that introduce a bit about us(community/ values/ yoga) on index.html */
 #about-us {
     min-height: 30rem;
     max-width: 100%;
@@ -279,6 +279,8 @@
 .card-features p {
     margin: 10px 0;
     font-size: 14px;
+    line-height: 20px;
+    opacity: 0.7;
 
 }
 
@@ -612,6 +614,30 @@
     font-size: 2rem;
     padding: 1.8rem;
 }
+
+.contact h3 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1.8rem;
+}
+
+.contact h3::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 5em;
+    margin: .5em auto;
+    background-color: #cea716;
+}
+
+.contact p {
+    text-align: center;
+    font-size: 1rem;
+    max-width: 60ch;
+    opacity: 0.7;
+}
+
+
 
 /* container to display the contact details and map side by side */
 .contact-wrapper {
