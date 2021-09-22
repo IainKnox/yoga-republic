@@ -45,7 +45,7 @@ One of the key factors with the site is responsive design, and with the navbar t
     <hr>
 
 * About Us Page
-    ![About us page](/assets/images/readme-img/about-us-page.png)
+    * ![About us page](/assets/images/readme-img/about-us-page.png)
     * The about us page opens with a poweful quote regarding community in an attempt to ellicit the user to connect with the studios values and engage with its community. It also contains information regarding the instructors, and a further call to action.
     * The instructors cards outline each teachers name and a brief bio pretaining to their role in the studio. On mouse over the card is transformed to scale up and demand the users attention. Mousing over the instructors name will also change the text color, so as to draw the users attention in even more.![Instructor Cards](/assets/images/readme-img/instructor-cards.png) 
     <p>&nbsp;</p>
