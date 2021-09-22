@@ -28,13 +28,14 @@
     padding-right: 10px;
 }
 
-/* Creates sticky position as the user scrolls down the page */
+/* creates sticky position as the user scrolls down the page */
 .sticky {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
 }
 
+/* ensures that the navbar stays infront of the card animations throughout the site */
 .infront {
     z-index: 1;
 }
@@ -128,9 +129,9 @@
 }
 
 
-/* Creation of the Hero image and its animations */
-/* This code is similar to that used in the Love Running walkthough project */
-/* The emphasis was on creating an image that grabbed attention */
+/* creation of the Hero image and its animations */
+/* this code is similar to that used in the Love Running walkthough project */
+/* the emphasis was on creating an image that grabbed attention */
 #hero-outer {
     height: 650px;
     width: 100%;
@@ -138,7 +139,7 @@
     position: relative;
 }
 
-/*Creates the floating text over the hero image */
+/* creates the floating text over the hero image */
 #cover-text,
 #cover-text h2 {
     color: #dbcdcd;
@@ -193,7 +194,7 @@
 }
 
 
-/* Welcome section*/
+/* welcome section*/
 #welcome {
     min-height: 30rem;
     max-width: 100%;
@@ -232,7 +233,7 @@
 
 
 
-/* About Us section on Index.html */
+/* navigation cards (community/ values/ yoga) on index.html */
 #about-us {
     min-height: 30rem;
     max-width: 100%;
@@ -283,7 +284,7 @@
 
 
 
-/* Media Queries to make the cards responsive on smaller devices*/
+/* media queries to make the cards responsive on smaller devices*/
 @media (max-width: 768px) {
     .card-wrapper {
         margin: 10px 20px;
@@ -295,9 +296,9 @@
     }
 }
 
-/* About Us page */
-/* Contains information regarding Instructors, Yoga styles and a Timetable*/
-
+/* about us page */
+/* contains information regarding Instructors, Yoga styles and a Timetable*/
+/* creates a white space div for the heading relevant to the page the user is on */
 .white-space {
     width: 100%;
     height: auto;
@@ -322,6 +323,7 @@
     background-color: #cea716
 }
 
+/* instructor cards */
 #instructors {
     font-family: 'Montserrat';
 
@@ -346,6 +348,7 @@
     padding: 1rem;
 }
 
+/* animates the card to lift off the page when moused over */
 .instructor-card:hover {
     transform: scale(1.12);
     transition: all 200ms ease-in-out;
@@ -387,7 +390,7 @@
 
 }
 
-/* Media query to make the cards stack side by side on larger displays*/
+/* media query to make the cards stack side by side on larger displays*/
 @media screen and (max-width: 1140px) {
     #instructors {
         display: grid;
@@ -397,7 +400,7 @@
     }   
 }
 
-/* Media query to make the cards responsive when scaling down to smaller screens*/
+/* media query to make the cards responsive when scaling down to smaller screens*/
 @media screen and (min-width: 600px) {
 
 
@@ -416,8 +419,8 @@
 }
 
 
-/* Yoga flip cards for the yoga styles */
-/* Each card contains an image and title on the front, and flips 180degrees to display information regarding the style and level required */
+/* yoga flip cards for the yoga styles */
+/* each card contains an image and title on the front, and flips 180degrees to display information regarding the style and level required */
 #yoga-styles {
     font-family: 'Montserrat';
     background-color: #fff;
@@ -427,6 +430,7 @@
     justify-content: space-evenly;
 }
 
+/* container to position the flip card */
 .yoga-card-wrapper {
     max-width: 400px;
     margin: 80px 40px;
@@ -457,20 +461,23 @@
     background-repeat: no-repeat;
     background-blend-mode: soft-light;
 }
-
+/* do a horizontal flip when you mouse over the flip card wrapper */
 .yoga-card:hover {
     transform: rotateY(180deg);
     cursor: pointer;
 }
 
+/* positioning front of the card*/
 .yoga-card-front {
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden; /* for Safari users */
     overflow: hidden;
     width: 100%;
     height: 100%;
     position: absolute;
 }
 
+/* positioning and styling back of the card*/
 .yoga-card-back {
     background: #fff;
     color: #03011e;
@@ -501,99 +508,15 @@
     max-width: 40ch;
 }
 
-/* Style the front side (fallback if image is missing) */
+/* style the front side (fallback if image is missing/ or doesnt load) */
 .yoga-card-front {
     background-image: linear-gradient(#03011e, #ffefca);
     color: #ffefca;
 }
 
-/*remove this code*/
-/* The flip card container - set the width and height to whatever you want */
-.flip-card {
-
-    background-color: transparent;
-    max-width: 200px;
-    min-height: 260px;
-    padding: 1rem;
-    border-radius: 15px;
-    perspective: 600px;
-    /* Remove this if you don't want the 3D effect */
-    box-shadow: 0px 2px 8px 0px #303149;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 20rem);
-    align-self: flex-start;
-    justify-content: space-evenly;
-
-    margin: 40px;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-}
-
-
-/* This container is needed to position the front and back side */
-.flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-}
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-    cursor: pointer;
-}
-
-/* Position the front and back side */
-.flip-card-front,
-.flip-card-back {
-    display: grid;
-    grid-template-columns: 300px;
-    grid-template-rows: 210px 210px 80px;
-    grid-template-areas: "pic""text""stat";
-    text-align: center;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    /* Safari */
-    backface-visibility: hidden;
-}
-
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-    background-image: linear-gradient(#03011e, #ffefca);
-    color: #ffefca;
-    border-radius: 15px;
-}
-
-/* Style the back side */
-.flip-card-back {
-    background-color: #cea716;
-    color: white;
-    border-radius: 15px;
-    transform: rotateY(180deg);
-}
-
-.flip-card-back p {
-    font-family: 'Montserrat', sans-serif;
-
-    padding: .5rem;
-    max-width: 10ch;
-    margin: .5rem 1.25rem;
-
-}
-
-.flip-card-back h2 {
-    font-family: 'Courgette', sans-serif;
-    max-width: 10ch;
-    font-weight: lighter;
-}
 
 /* timetable */
+/* image used to create the tiled block effect on the yoga.html page */
 #timetable {
     background: url(/assets/images/joshua-woroniecki--5nwt_aN2E0-unsplash.jpg);
     background-repeat: no-repeat;
@@ -645,6 +568,7 @@
 }
 
 /*media query */
+/* changes the background image to display vertically and remove the underline on smaller screens and devices */
 @media screen and (max-width: 1200px) {
     .yoga-time {
         width: 100%;
@@ -666,8 +590,6 @@
     padding: .5rem;
 
 }
-
-
 
 
 /* Contact Us section */
@@ -784,6 +706,7 @@ font-size: 1.75rem;
     padding: 5px;
 }
 
+ /*radio buttons for the exercise types */
 .radio-btn {
     font-size: 1.25rem;
     padding: .25rem;
@@ -791,11 +714,13 @@ font-size: 1.75rem;
     cursor: pointer;
 }
 
+/* submit button positioning for the form*/
 form .form-btn {
     display: block;
     text-align: center;
 }
 
+/* iframe to hold the google map */
 .contact-details iframe {
     width: 100%;
     height: 100%;
@@ -832,15 +757,14 @@ form .form-btn {
 
 }
 
-
-
-/* buttons */
-
+/* buttons used in the cards and contact sections used across the site */
+/* flexible wrapper for button */
 .contact-btn {
     width: 15rem;
     margin: 0 auto;
 }
 
+/* button used on the form */
 .button {
     font-size: 1rem;
     text-align: center;
@@ -864,8 +788,7 @@ form .form-btn {
     cursor: pointer;
 }
 
-
-
+/*button used on card and contact wrappers */
 .btn {
     width: 100%;
     font-family: 'Montserrat';
@@ -890,8 +813,6 @@ form .form-btn {
     color: #fff;
     cursor: pointer;
 }
-
-
 
 
 /* Thank You section */
@@ -956,6 +877,7 @@ footer p {
     justify-content: space-between;
 }
 
+/* an arrow fixed to scroll with the screen, so that a user can quickly return to the top of the page */
 .arrow-top {
     position: fixed;
     right: 0;
@@ -964,13 +886,12 @@ footer p {
     color: #cea716;
 
 }
-
+ /* the YR lstyled logo attached to the arrow so as to create further brand awareness with the user */
 .arrow-top p {
     font-size: 1.3rem;
 }
 
 /* media queries */
-
 /* media query to resize the cover-text box on mobile devices*/
 @media screen and (max-width: 400px) {
 
