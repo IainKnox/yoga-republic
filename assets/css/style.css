@@ -64,10 +64,6 @@
     color: #cea716;
 }
 
-.brand-logo, .brand-name:hover {
-    transform: scale(1.1);
-}
-
 .navbar-links ul {
     margin: 0;
     padding: 0;
@@ -664,7 +660,7 @@
 
 /* Contact Us section */
 #contact {
-    min-height: 10rem;
+    min-height: 6rem;
     max-width: 100%;
     margin: auto 0;
     overflow: hidden;
