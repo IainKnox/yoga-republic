@@ -156,14 +156,14 @@
 
     /*animates zoom effect on loading page*/
     animation: hero-zoom;
-    animation-duration: 6s;
+    animation-duration: 8s;
     animation-fill-mode: forwards;
 }
 
 /* creates the zoom for the Hero image */
 @keyframes hero-zoom {
     from {
-        transform: scale (0.8);
+        transform: scale(1);
     }
 
     to {
@@ -805,7 +805,6 @@ form .form-btn {
     padding: 1rem;
     margin: .5rem 0;
     border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.9);
     transition: all 200ms ease-in-out;
     text-decoration: none;
 }
@@ -826,7 +825,6 @@ form .form-btn {
 
     background-color: #03011e;
     border: 2px solid #847655;
-    box-shadow: rgba(0, 0, 0, 0.9);
     color:#847655;
 
     padding: 1rem;
