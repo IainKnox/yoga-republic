@@ -30,7 +30,6 @@
 
 /* creates sticky position as the user scrolls down the page */
 .sticky {
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
 }
@@ -163,7 +162,7 @@
 /* creates the zoom for the Hero image */
 @keyframes hero-zoom {
     from {
-        transform: scale(1);
+        transform: scale(0.95);
     }
 
     to {
@@ -237,7 +236,7 @@
 #about-us {
     min-height: 30rem;
     max-width: 100%;
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa',sans-serif;
     overflow: hidden;
 }
 
@@ -327,7 +326,7 @@
 
 /* instructor cards */
 #instructors {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat',sans-serif;
 
     display: grid;
     grid-template-columns: repeat(auto-fit, 25%);
@@ -427,7 +426,7 @@
 /* yoga flip cards for the yoga styles */
 /* each card contains an image and title on the front, and flips 180degrees to display information regarding the style and level required */
 #yoga-styles {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat',sans-serif;
     background-color: #fff;
     display: grid;
     grid-template-columns: repeat(auto-fit, 20rem);
@@ -475,7 +474,6 @@
 /* positioning front of the card*/
 .yoga-card-front {
     backface-visibility: hidden;
-    -webkit-backface-visibility: hidden; /* for Safari users */
     overflow: hidden;
     width: 100%;
     height: 100%;
@@ -501,7 +499,7 @@
 }
 
 .yoga-card .class-level {
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-size: .8rem;
 }
 
@@ -819,7 +817,7 @@ form .form-btn {
 /*button used on card and contact wrappers */
 .btn {
     width: 100%;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat',sans-serif;
     font-size: 1.12rem;
     font-weight: bold;
 
