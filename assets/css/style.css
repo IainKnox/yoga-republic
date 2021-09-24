@@ -818,7 +818,7 @@ form .form-btn {
 
 /*button used on nav card and contact wrappers */
 .btn {
-    width: 100%;
+    width: 20ch;
     font-family: 'Montserrat',sans-serif;
     font-size: 1.12rem;
     font-weight: bold;
