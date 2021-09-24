@@ -915,6 +915,7 @@ footer p {
 }
  /* the YR lstyled logo attached to the arrow so as to create further brand awareness with the user */
 .arrow-top p {
+    font-family: 'Comfortaa',sans-serif;
     font-size: 1.3rem;
 }
 
