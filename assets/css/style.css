@@ -789,6 +789,8 @@ form .form-btn {
 .contact-btn {
     width: 15rem;
     margin: 0 auto;
+    display: block;
+    text-align: center;
 }
 
 /* button used on the form */
