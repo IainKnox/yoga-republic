@@ -918,14 +918,9 @@ footer p {
     position: fixed;
     right: 0;
     bottom: .25rem;
+    font-family: 'Comfortaa', sans-serif;
     font-size: 2rem;
     color: #cea716;
-
-}
- /* the YR lstyled logo attached to the arrow so as to create further brand awareness with the user */
-.arrow-top p {
-    font-family: 'Comfortaa',sans-serif;
-    font-size: 1.3rem;
 }
 
 /* media queries */
