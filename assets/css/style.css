@@ -700,6 +700,7 @@
 .contact-details p {
     font-size: 1rem;
     margin-bottom: 20px;
+    text-align: left;
 }
 
 /* creates a container to hold all the form information */
