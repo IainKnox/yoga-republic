@@ -98,7 +98,6 @@ The studio would like to use the **Sign Up Page** to help generate future leads,
 Throughout this project I have done regular testing. And have reloaded and refreshed the pages multiple times after each addition and modification. 
 
 My first round of testing was functionality testing in which I performed the following actions.
-
 ### Testing the Links
  * Checking the External Links such as Facebook, Instagram and Twitter
  * Checking the External Links all Open in the new Tab
@@ -147,12 +146,39 @@ I have hosted my site on github pages, it can be accessed from the following url
 
 https://iainknox.github.io/yoga-republic/
 
+<hr>
+<p>&nbsp;</p>
+
 
 ## Credits
+* A big shout out to my mentor, **Reuben Ferrante**, for guding me through the process and offering assistance when neccesary to point me in the right direction.
+* The community on **Slack**, the help and feedback a student is able to receive from the peers and alumni is a really invaluable tool to have.
+
+<hr>
+<p>&nbsp;</p>
+
 ### Content
+* Much of the information regarding Yoga, its styles and origins where taken from various wikipedia articles [Yoga Wiki](https://en.wikipedia.org/wiki/Yoga)
+
+* The color was inspired by running various searches through google with the keyword **Yoga** and then further refined with the help of sites such as [Color Space](https://mycolor.space/) and [Coolors](https://coolors.co/e8c34a-1d1336-5f634f-9bc4cb-56e39f)
+
+<hr>
+<p>&nbsp;</p>
+
 ### Media
 * The images used throughout the site were sourced from an open source gallery in Pexels. The [Yoga Studio Collection](https://www.pexels.com/collections/yoga-studio-m3q06x7/) was created with the features the studio offers in mind.
+
+* The animation used on the landing page was inspired by the deisgn used in the **Love Running** project. It was modified to suit the needs of this site.
+
+* Icons used throughout the site for social media and card graphics were sourced from the free kit made available on [Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2&q=social)
+
+<hr>
+<p>&nbsp;</p>
+
 ### Other Resources
 * To better add to my understanding, markdown syntax was reseached from [Markdown Syntax](https://dotcms.com/docs/latest/markdown-syntax) to aid in compiling and styiling this README document :)
+
+<hr>
+<p>&nbsp;</p>
 
 
