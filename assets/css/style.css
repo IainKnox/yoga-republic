@@ -513,7 +513,7 @@
 
 /* style the front side (fallback if image is missing/ or doesnt load) */
 .yoga-card-front {
-    background-image: linear-gradient(#03011e, #ffefca);
+    background-image: linear-gradient(#03011e, #303149);
     color: #ffefca;
 }
 
