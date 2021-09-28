@@ -327,7 +327,6 @@
 /* instructor cards */
 #instructors {
     font-family: 'Montserrat',sans-serif;
-
     display: grid;
     grid-template-columns: repeat(auto-fit, 25%);
     align-self: flex-start;
@@ -453,6 +452,7 @@
     position: absolute;
     transform-style: preserve-3d;
     transition: all 1s ease-in-out;
+    
 }
 
 .yoga-img {
@@ -477,6 +477,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
+    transform-style: preserve-3d;
 }
 
 /* positioning and styling back of the card*/
@@ -514,6 +515,14 @@
 .yoga-card-front {
     background-image: linear-gradient(#03011e, #ffefca);
     color: #ffefca;
+}
+
+/* media query to make the cards responsive when scaling down to smaller screens*/
+@media screen and (min-width: 600px) {
+
+    .yoga-card-wrapper {
+        flex-direction: row;
+    }
 }
 
 
