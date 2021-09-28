@@ -85,21 +85,68 @@ Yoga Republic will be useful to users looking to find a specific yoga style suit
 * Footer
     * The footer container social media links that open a new browser window to the studio's Facebook, Twitter and Instagram pages. There is also a floating "up" arrow to take users back to the top of the page without having to scroll up manually. The arrow was designed to incorporate the YR logo so as to help build brand awareness with the user as they navigate through the site, on a more subconscious level.
     * ![Footer](/assets/images/readme-img/footer.png)
-    <p>&nbsp;</p>
     <hr>
+<p>&nbsp;</p>
 
 ### Future Updates
 The studio would like to use the **Sign Up Page** to help generate future leads, collecting contact information from users to build a database of leads to follow up at later stage.
+<hr>
 <p>&nbsp;</p>
 
 ## Testing
+
+Throughout this project I have done regular testing. And have reloaded and refreshed the pages multiple times after each addition and modification. 
+
+My first round of testing was functionality testing in which I performed the following actions.
+
+### Testing the Links
+ * Checking the External Links such as Facebook, Instagram and Twitter
+ * Checking the External Links all Open in the new Tab
+ * Testing Internal Links to About, Yoga and Contact, as well as the sub links such as #top
+ <hr>
+
+### Testing the Forms
+ * Testing to see if the required fields are required
+ * Testing the Submit Button
+ <hr>
+
 ### Validator Testing
-* HTML
+* Validating the HTML in the site
     * Validation results - [W3C Validator](https://validator.w3.org/nu/)
-* CSS
-    * Validation results - [CSS Validation](https://jigsaw.w3.org/css-validator/)
+    * All pages where tested through the W3C html validator and passed. Links to the results for each page are as follows;
+        * [index.html Validation](https://iainknox.github.io/yoga-republic/documentation/index-html-validation.png)
+        * [about.html Validation](https://iainknox.github.io/yoga-republic/documentation/about-html-validation.png)
+        * [yoga.html Validation](https://iainknox.github.io/yoga-republic/documentation/our-yoga-html-validation.png)
+        * [contact.html Validation](https://iainknox.github.io/yoga-republic/documentation/contact-html-validation.png)
+        * [thanks.html Validation](https://iainknox.github.io/yoga-republic/documentation/thanks-html-validation.png)
+        <hr>
+ 
+* Validating the CSS in the site
+    * Validation results - [CSS Validator](https://jigsaw.w3.org/css-validator/)
+     * All pages where tested through the W3C css validator and passed. Links to the results for each page are as follows;
+        * [yoga-republic Validation](https://iainknox.github.io/yoga-republic/documentation/css-validation.png)
+        <hr>
+
+### Site fluidity 
+To test the flow of the site I forwarded it on to my spouse and work colleagues. After some proding I asked for peer review within my P1 slack channel. Grammarly was also used to test the various pages for any spelling and grammar errors.
+<hr>
+
+### Browser Compatibility
+I tested the compatibility of my site first by by emulating different devices using the Dev tools in **Chrome** as well as using the variable responsive setting to check at different breakpoints. 
+* The various tests that were run were:
+    * checking to see if the all images and cards scaled and maintained aspect ratio as the display shrunk and grew.
+    * checking to see if responsive elements within my layout changed at the correct breakpoints, such as the navbar and cards.
+    * checking to see if my media queries behaved as expected with regards to cards displaying in columns or rows, navigation.  
+
+I then tested it on different browsers. I have tested in **Chrome**, **Firefox** and **Edge**. Once I was sure my project worked on windows 10, I then opened it on my phone running **Safari** on **IOS 15**. 
+<hr>
+<p>&nbsp;</p>
 
 ## Deployment
+I have hosted my site on github pages, it can be accessed from the following url:
+
+https://iainknox.github.io/yoga-republic/
+
 
 ## Credits
 ### Content
