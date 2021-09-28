@@ -426,24 +426,22 @@
 /* yoga flip cards for the yoga styles */
 /* each card contains an image and title on the front, and flips 180degrees to display information regarding the style and level required */
 #yoga-styles {
-    font-family: 'Montserrat',sans-serif;
     background-color: #fff;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 20rem);
+    grid-template-columns: repeat(auto-fit, 18rem);
     align-self: flex-start;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 /* container to position the flip card */
 .yoga-card-wrapper {
     max-width: 400px;
-    margin: 80px 40px;
-    padding: 20px;
+    min-height: 360px;
+    margin: 30px 10px;
+    padding: .5em;
     display: flex;
     flex-direction: column;
     text-align: center;
-
-    height: 360px;
     position: relative;
     perspective: 800px;
 }
@@ -461,9 +459,8 @@
     max-width: 250px;
     height: auto;
     background-size: cover;
-    background-position: center;
+    background-position:center;
     background-repeat: no-repeat;
-    background-blend-mode: soft-light;
 }
 /* do a horizontal flip when you mouse over the flip card wrapper */
 .yoga-card:hover {
@@ -471,8 +468,9 @@
     cursor: pointer;
 }
 
-/* positioning front of the card*/
-.yoga-card-front {
+/* positioning front and back of the card*/
+.yoga-card-front,
+.yoga-card-back {
     backface-visibility: hidden;
     overflow: hidden;
     width: 100%;
