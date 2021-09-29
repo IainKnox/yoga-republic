@@ -59,7 +59,8 @@
 }
 
 /* create an anchor on the brand logo that return the user back to home on click*/
-.brand-logo a, .brand-name a {
+.brand-logo a,
+.brand-name a {
     text-decoration: none;
     color: #cea716;
 }
@@ -236,7 +237,7 @@
 #nav-cards {
     min-height: 30rem;
     max-width: 100%;
-    font-family: 'Comfortaa',sans-serif;
+    font-family: 'Comfortaa', sans-serif;
     overflow: hidden;
 }
 
@@ -326,7 +327,7 @@
 
 /* instructor cards */
 #instructors {
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     display: grid;
     grid-template-columns: repeat(auto-fit, 25%);
     align-self: flex-start;
@@ -366,6 +367,7 @@
     line-height: 1.1;
     letter-spacing: 1px;
 }
+
 .profile-name:hover {
     color: #cea716;
 }
@@ -400,7 +402,7 @@
         grid-template-columns: repeat(auto-fit, 25rem);
         align-self: flex-start;
         justify-content: space-evenly;
-    }   
+    }
 }
 
 /* media query to make the cards responsive when scaling down to smaller screens*/
@@ -452,16 +454,17 @@
     position: absolute;
     transform-style: preserve-3d;
     transition: all 1s ease-in-out;
-    
+
 }
 
 .yoga-img {
     max-width: 250px;
     height: auto;
     background-size: cover;
-    background-position:center;
+    background-position: center;
     background-repeat: no-repeat;
 }
+
 /* do a horizontal flip when you mouse over the flip card wrapper */
 .yoga-card:hover {
     transform: rotateY(180deg);
@@ -499,7 +502,7 @@
 }
 
 .yoga-card .class-level {
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: .8rem;
 }
 
@@ -713,9 +716,10 @@
 
 .contact-details form h3 {
     margin: 1.5em auto;
-font-size: 1.75rem;
+    font-size: 1.75rem;
     text-align: center;
 }
+
 .contact-details .contact-header {
     font-size: 1.75rem;
     text-align: center;
@@ -736,13 +740,14 @@ font-size: 1.75rem;
 
 .contact-details .form-input {
     font-size: 1rem;
-    width: 100%;
+    align-items: center;
+    width: 95%;
     height: 40px;
     margin-bottom: 20px;
     padding: 5px;
 }
 
- /*radio buttons for the exercise types */
+/*radio buttons for the exercise types */
 .radio-btn {
     font-size: 1.25rem;
     padding: .25rem;
@@ -752,6 +757,8 @@ font-size: 1.75rem;
 
 /* submit button positioning for the form*/
 form .form-btn {
+    width: 15rem;
+    margin: 0 auto;
     display: block;
     text-align: center;
 }
@@ -804,11 +811,14 @@ form .form-btn {
 
 /* button used on the form */
 .button {
-    font-size: 1rem;
+    font-family: 'Montserrat';
+    font-size: 1.12rem;
+    text-transform: uppercase;
+    width: 15rem;
     text-align: center;
 
     background-color: #cea716;
-    border: 1px solid white;
+    border: 2px solid white;
     color: #03011e;
 
     padding: 1rem;
@@ -821,20 +831,20 @@ form .form-btn {
 .button:hover {
     background-color: #03011e;
     color: #fff;
-    border: 1px solid #cea716;
+    border: 2px solid #cea716;
     cursor: pointer;
 }
 
 /*button used on nav card and contact wrappers */
 .btn {
     width: 20ch;
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.12rem;
     font-weight: bold;
 
     background-color: #03011e;
     border: 2px solid #847655;
-    color:#847655;
+    color: #847655;
 
     padding: 1rem;
     margin: 1rem auto;
