@@ -121,7 +121,7 @@ Yoga Republic will be useful to users looking to find a specific yoga style suit
 <p>&nbsp;</p>
 
 ## Testing 1.0
-Throughout this project I have done regular testing. And have reloaded and refreshed the pages multiple times after each addition and modification. 
+Throughout this project I have done regular testing. And have reloaded and refreshed the pages multiple times after each addition and modification. Various bugs were found in terms of images not diplaying correctly, positioning, buttons and links not working. Mostly through revision of the **HTML and CSS** course work and some external **googling** I was able to squash most bugs I encountered.
 
 My first round of testing was functionality testing in which I performed the following actions.
 ### Testing the Links
