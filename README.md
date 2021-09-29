@@ -187,7 +187,7 @@ My second round of testing involved accessibility and readability, checking the 
 
 ### AmIResponsive
 
-* The site was tested with the amireponsive tool to determine how well it would look on various outputs. [AmIReponsive](/assets/images/readme-img/amiresponsive.png)
+* The site was tested with the amireponsive tool to determine how well it would look on various outputs. ![AmIReponsive](/assets/images/readme-img/amiresponsive.png)
     
 <hr>
 <p>&nbsp;</p>
